@@ -27,6 +27,7 @@ public class LoginPresenter implements LoginContract.ILoginPresenter {
     @Override
     public void onSuccess() {
         loginView.showToast("登录成功！");
+        loginView.jumpActivity();
     }
     @Override
     public void onFailure() {

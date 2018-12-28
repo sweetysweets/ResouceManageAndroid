@@ -12,7 +12,7 @@ import cn.edu.nju.sweets.resourcemanagement.login.LoginActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
+//    private TextView mTextMessage;
 //
 //    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
 //            = new BottomNavigationView.OnNavigationItemSelectedListener() {

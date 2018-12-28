@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<com.qmuiteam.qmui.widget.QMUITopBarLayout
+android:id="@+id/topbar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:fitsSystemWindows="true"/>
+</merge>
+
+    <!--<merge xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--<com.qmuiteam.qmui.widget.QMUITopBar-->
+    <!--android:id="@+id/topbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/qmui_topbar_height"/>-->
+
+    <!--&lt;!&ndash;<com.qmuiteam.qmui.widget.QMUITopBarLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/topbar"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:fitsSystemWindows="true"/>&ndash;&gt;-->
+
+    <!--</merge>-->
+
+<!--<android.support.v7.widget.Toolbar-->
+<!--android:id="@+id/toolbar_common_tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="?android:attr/actionBarSize"-->
+<!--android:background="@color/appMainColor"-->
+<!--android:gravity="center_vertical">-->
+
+<!--<ImageView-->
+    <!--android:id="@+id/iv_common_sth_left"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:layout_marginLeft="@dimen/btnHorizontalMargin"-->
+    <!--android:clickable="true"-->
+    <!--android:visibility="gone"/>-->
+
+<!--<TextView-->
+    <!--android:id="@+id/tv_common_sth_left"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:layout_marginLeft="@dimen/btnHorizontalMargin"-->
+    <!--android:visibility="gone"-->
+    <!--android:textColor="@color/colorWhite"-->
+    <!--android:textSize="@dimen/txtSizeLarge"-->
+    <!--/>-->
+
+<!--<TextView-->
+    <!--android:id="@+id/tv_common_title"-->
+    <!--style="@style/ActionBarTitle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="@string/mainActivityTitle"-->
+    <!--android:textSize="@dimen/txtSizeLarge"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--/>-->
+
+
+<!--<FrameLayout-->
+    <!--android:id="@+id/liadjacentleft_mid"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginRight="@dimen/btnHorizontalMargin"-->
+    <!--android:layout_gravity="right">-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_common_sth"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:clickable="true"-->
+        <!--android:visibility="gone"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_common_count"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right|top"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:background="@drawable/ic_msg_bg"-->
+        <!--android:gravity="center"-->
+        <!--android:visibility="gone"-->
+        <!--android:textSize="13sp"/>-->
+<!--</FrameLayout>-->
+
+<!--<TextView-->
+    <!--android:id="@+id/tv_common_sth"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:visibility="gone"-->
+    <!--android:textColor="@color/colorWhite"-->
+    <!--android:textSize="@dimen/txtSizeNormal"-->
+    <!--/>-->
+
+<!--</android.support.v7.widget.Toolbar>-->

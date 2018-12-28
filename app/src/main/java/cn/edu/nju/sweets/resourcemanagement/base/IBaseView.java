@@ -16,8 +16,10 @@ public interface IBaseView<T> {
 
 
     //Toast形式提示
-    public void showToast(String msg);
+    void showToast(String msg);
 
+    //跳转页面
+    void jumpActivity();
 
 
 

@@ -21,7 +21,7 @@ public interface IBasePresenter<V extends IBaseView> {
 
     /**
      * presenter和对应的view绑定
-     * @param mvpView  目标view
+     * @param   目标view
      */
     void attachView(V view);
     /**

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<include layout="@layout/toolbar_common"/>
+<!--<TableLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<TableRow-->
+        <!--android:padding="4dp">-->
+
+        <!--<TextView-->
+            <!--style="@style/DetailItemLabel"-->
+
+            <!--android:text="流水号" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detailTable_name"-->
+            <!--style="@style/DetailItem"-->
+            <!--android:text="00000007"-->
+            <!--/>-->
+    <!--</TableRow>-->
+
+    <!--<include layout="@layout/view_line_horizontal"/>-->
+
+    <!--<TableRow-->
+        <!--android:padding="4dp">-->
+
+        <!--<TextView-->
+            <!--style="@style/DetailItemLabel"-->
+            <!--android:text="课件大小"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detailTable_size"-->
+            <!--style="@style/DetailItem"/>-->
+    <!--</TableRow>-->
+
+    <!--<include layout="@layout/view_line_horizontal"/>-->
+
+    <!--<TableRow-->
+        <!--android:padding="4dp">-->
+
+        <!--<TextView-->
+            <!--style="@style/DetailItemLabel"-->
+            <!--android:text="课程版本"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detailTable_version"-->
+            <!--style="@style/DetailItem"/>-->
+    <!--</TableRow>-->
+
+    <!--<include layout="@layout/view_line_horizontal"/>-->
+
+    <!--<TableRow-->
+        <!--android:padding="4dp">-->
+
+        <!--<TextView-->
+            <!--style="@style/DetailItemLabel"-->
+            <!--android:text="更新时间"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detailTable_mtime"-->
+            <!--style="@style/DetailItem"/>-->
+    <!--</TableRow>-->
+
+    <!--<include layout="@layout/view_line_horizontal"/>-->
+
+    <!--<TableRow-->
+        <!--android:padding="4dp">-->
+
+        <!--<TextView-->
+            <!--style="@style/DetailItemLabel"-->
+            <!--android:text="课件价格"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detailTable_price"-->
+            <!--style="@style/DetailItem"/>-->
+    <!--</TableRow>-->
+
+    <!--<include layout="@layout/view_line_horizontal"/>-->
+
+
+<!--</TableLayout>-->
+
+
+
+    <com.qmuiteam.qmui.widget.QMUIWindowInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+            <com.qmuiteam.qmui.widget.grouplist.QMUIGroupListView
+                android:id="@+id/resource_detail_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </ScrollView>
+
+
+    </com.qmuiteam.qmui.widget.QMUIWindowInsetLayout>
+
+
+</LinearLayout>
